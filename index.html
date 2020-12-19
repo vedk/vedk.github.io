@@ -1,16 +1,74 @@
 <!DOCTYPE html>
 
-<html lang="en">
-	<head>
-		<title>Ved Khandekar's personal page</title>
-<style>
-body {
-	font-family: sans-serif;
-}
-</style>
-	</head>
-	</head>
-	<body>
-		Hello World!
-	</body>
+<html>
+<head>
+	<title>Ved Khandekar's personal page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body {
+			font-family: sans-serif;
+			margin: 50px 50px 50px 50px;
+		}
+
+		.flex-container {
+			display: flex;
+			flex-direction: row;
+		}
+
+		a.fai {
+			text-decoration: none;
+			color: inherit;
+			animation: fadein 2s;
+		}
+
+		@keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+	
+		<div style="flex-grow: 1">
+		<h1>Hi! 👋<br/>नमस्ते 🙏</h1><br/>
+		<h2>I am Ved Khandekar / वेद खांडेकर</h2>
+		<p>Welcome to my page!<br/>
+		I am a <b>first year undergraduate</b> at <b><a href="https://www.iitb.ac.in/" target="_blank">IIT Bombay</a>.</b><br/></p>
+		<p>
+		My interests are:<br/>
+		<ul>
+			<li>Programming</li>
+			<li>Reading</li>
+			<li>Astronomy</li>
+			<li>Theoretical Physics</li>
+		</ul>
+		</p>
+
+		<p>
+		My résumé: <code>ERROR 404 - No Skills Found!</code>😜
+		</p>
+		</div>
+		
+		<div style="flex-grow: 1; text-align: right">
+		<img src="./dp.jpeg" width="433" height="578" />
+		</div>
+	
+	</div>
+	
+	<div class="flex-container">
+		<div style="flex-grow: 1; text-align: center">
+		<!--<a href="https://github.com/vedk" target="_blank"><img src="./github_mark.png" width="32" height="32" /></a>-->
+		<a class="fai" href="https://github.com/vedk" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a>
+		&nbsp;&nbsp;
+		<a class="fai" href="https://www.facebook.com/ved.khandekar.1" target="_blank"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+		&nbsp;&nbsp;
+		<a class="fai" href="https://www.linkedin.com/in/ved-khandekar-29824612b/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+		&nbsp;&nbsp;
+		<a class="fai" href="https://www.instagram.com/__vedk/" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+		&nbsp;&nbsp;
+		<a class="fai" href="mailto:vedk@gmail.com"><i class="fa fa-at" style="font-size:36px"></i></a>
+		</div>
+	</div>
+</body>
 </html>
